@@ -1,0 +1,23 @@
+{
+    "manifest_version":3,
+    "name": "Global entry drops",
+    "description":"Find global entry interviews that meet your selection critera",
+    "version":"1.0",
+    "action":{
+        "default_popup": "popup/popup.html"
+    },
+    "icons":{
+        "16": "images/passport (1).png",
+        "32": "images/passport (2).png",
+        "64": "images/passport (3).png",
+        "128":"images/passport (4).png"
+    },
+    "background":{
+        "service_worker":"background.js",
+        "type":"module"
+    },
+    "permissions":[
+        "storage"
+    ]
+    
+}
